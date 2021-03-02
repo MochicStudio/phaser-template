@@ -6,7 +6,7 @@ module.exports = {
 		filename: 'main.js',
 		path: path.resolve(__dirname, 'dist')
 	},
-	modules: {
+	module: {
 		rules: [
 			{
 				test: /\.css$/i,
